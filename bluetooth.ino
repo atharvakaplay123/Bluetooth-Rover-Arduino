@@ -86,48 +86,5 @@ void loop() {
     if (a == 'f') {
       //      digitalWrite(buzzer, LOW);
     }
-    //////////////////////////////////////////
-    if (a == 'D') {
-      digitalWrite(frontled, HIGH);
-      digitalWrite(backled, LOW);
-      digitalWrite(rightled, LOW);
-      digitalWrite(leftled, LOW);
-      delay(500);
-      digitalWrite(frontled, LOW);
-      digitalWrite(backled, LOW);
-      digitalWrite(rightled, HIGH);
-      digitalWrite(leftled, LOW);
-      delay(500);
-      digitalWrite(frontled, LOW);
-      digitalWrite(backled, HIGH);
-      digitalWrite(rightled, LOW);
-      digitalWrite(leftled, LOW);
-      delay(500);
-      digitalWrite(frontled, LOW);
-      digitalWrite(backled, LOW);
-      digitalWrite(rightled, LOW);
-      digitalWrite(leftled, HIGH);
-      delay(500);
-    }
-    if (a == 'S') {
-      digitalWrite(rightled, HIGH);
-      digitalWrite(leftled, LOW);
-      delay(500);
-      digitalWrite(rightled, LOW);
-      digitalWrite(leftled, HIGH);
-      delay(500);
-    }
-    if (a == 'A') {
-      digitalWrite(frontled, HIGH);
-      digitalWrite(backled, HIGH);
-      digitalWrite(rightled, HIGH);
-      digitalWrite(leftled, HIGH);
-      delay(500);
-      digitalWrite(frontled, LOW);
-      digitalWrite(backled, LOW);
-      digitalWrite(rightled, LOW);
-      digitalWrite(leftled, LOW);
-      delay(500);
-    }
   }
 }
